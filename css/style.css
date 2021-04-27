@@ -1,0 +1,161 @@
+@import'./bootstrap.min.css';
+@import'./swiper.min.css';
+@import'./animate.css';
+
+body{
+    overflow-x: hidden;
+}
+.banner-content{
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.main-banner{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner-choice{
+    background-color: #E2EAED;
+    padding-left: 35px;
+    padding-right: 30px;
+}
+.ultimate-image,
+.app-image,
+.smart-image,
+.feature-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    min-height: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.ultimate-image img,
+.app-image img,
+.smart-image img,
+.feature-image img{
+    display: block;
+    max-width: 60%;
+}
+.ultimate-wrapper > div:nth-child(1) > .ultimate-image,
+.smart-wrapper > div:nth-child(1) .smart-image ,
+.feature-wrapper > div:nth-child(1) .feature-image{
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.ultimate-wrapper > div:nth-child(4) > .ultimate-image,
+.smart-wrapper > div:nth-child(2) .smart-image ,
+.feature-wrapper > div:nth-child(2) .feature-image{
+    background-color: rgba(0, 0, 255, 0.1);
+}
+.ultimate-wrapper > div:nth-child(2) > .ultimate-image,
+.smart-wrapper > div:nth-child(3) .smart-image ,
+.feature-wrapper > div:nth-child(3) .feature-image{
+    background-color: rgba(0,255, 0, 0.1);
+}
+.ultimate-wrapper > div:nth-child(3) > .ultimate-image{
+    background-color: #FFF6D3;
+}
+.fixed-title{
+    max-width: 500px;
+    margin: auto;
+}
+.app-wrapper > div:nth-child(1) .app-image{
+    background-color:#FFECEF; 
+}
+.app-wrapper > div:nth-child(2) .app-image{
+    background-color: #EAF9FF;
+}
+.app-wrapper > div:nth-child(3) .app-image{
+    background-color: #FFF6D3;
+}
+.app-wrapper > div:nth-child(4) .app-image{
+    background-color: #E4FFEE;
+}
+.app-wrapper > div:nth-child(5) .app-image{
+    background-color: #F4F4FF;
+}
+.app-wrapper > div:nth-child(6) .app-image{
+    background-color: #FDEEE4;
+}
+
+.feedback-image{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.feedback-nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+.feedback-control{
+    width: 45px;
+    height: 45px;
+    color: #0d6efd;
+    background-color: #eff3f8;
+    border: 2px solid #eff3f8
+}
+.feedback-control span{
+    position: relative;
+    top: -4px;
+}
+.feedback-control.swiper-button-disabled{
+    color: #eff3f8;
+    background-color: #fff;
+}
+
+.accordion-item{
+    background-color: #F5F7FA !important;
+    border: none;
+}
+.accordion-button{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.download-section {
+    background-size: contain;
+    background-position: right 40px;
+    background-repeat: no-repeat;
+}
+
+.footer-section{
+    background-color: #09142E;
+}
+
+
+
+@media (max-width: 991px){
+    .main-banner{
+        background: none !important;
+    }
+    .banner-content{
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+    .download-section{
+        background: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
